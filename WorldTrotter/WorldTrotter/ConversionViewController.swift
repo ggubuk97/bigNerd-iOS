@@ -9,7 +9,7 @@
 //import Foundation
 import UIKit
 
-class ConversionViewController: UIViewController {
+class ConversionViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet var celsiusLabel: UILabel!
     @IBOutlet var textField: UITextField!
@@ -68,4 +68,47 @@ class ConversionViewController: UIViewController {
     @IBAction func dismissKeyboard(sender: AnyObject) {
         textField.resignFirstResponder()
     }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        
+        // Bronze Challenge
+        let hasDecimal = string.rangeOfCharacter(from: NSCharacterSet.letters)
+        if hasDecimal != nil {
+            return false
+        }
+        
+        // Bronze Challenge another solution
+        /*
+        let mySet = NSCharacterSet.decimalDigits
+        for c in string.unicodeScalars {
+            if c == "." {
+                break
+            }
+            if mySet.contains(c) {
+                return true
+            } else {
+                return false
+            }
+        }
+        */
+        
+        let existingTextHasDecimalSeparator = textField.text?.range(of: ".")
+        let replacementTextHasDecimalSeparator = string.range(of: ".")
+        
+        if existingTextHasDecimalSeparator != nil && replacementTextHasDecimalSeparator != nil {
+            return false
+        }
+        else {
+            return true
+        }
+        
+
+        
+    }
 }
+
+
+
+
+
