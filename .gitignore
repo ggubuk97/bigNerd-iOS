@@ -1,0 +1,4 @@
+
+
+#ignore xcode user data
+*.xcuserstate
