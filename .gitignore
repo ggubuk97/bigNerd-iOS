@@ -1,4 +1,6 @@
 
+#ignore Mac DS_Store file
+.DS_Store
 
 #ignore xcode user data
 *.xcuserstate
