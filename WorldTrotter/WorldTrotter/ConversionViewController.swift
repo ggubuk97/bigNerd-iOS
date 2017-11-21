@@ -45,6 +45,7 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         else {
             celsiusLabel.text = "???"
         }
+        print("Celcius Label updated")
     } 
     
     @IBAction func fahrenheitFieldEditingChanged(textField: UITextField) {
@@ -102,9 +103,23 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         else {
             return true
         }
+    }
+    
+    override func viewDidLoad() {
+        // Always call the super implementation of viewDidLoad
+        super.viewDidLoad()
         
-
-        
+        print("ConversionViewController loaded its view")
+    }
+    
+    // Silver Challenge
+    override func viewWillAppear(_ animated: Bool) {
+        let date = Date()
+        let hour = Calendar.current.component(.hour, from: date)
+        print("hour : \(hour)")
+        if hour > 18 || hour < 6 {
+            self.view.backgroundColor = UIColor.gray
+        }
     }
 }
 
