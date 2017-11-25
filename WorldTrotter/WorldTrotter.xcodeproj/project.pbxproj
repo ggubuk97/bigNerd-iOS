@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC21C1FB1FC9594400EA84D5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21C1FA1FC9594400EA84D5 /* WebViewController.swift */; };
 		CC8A371C1FBDB679000AB735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A371B1FBDB679000AB735 /* AppDelegate.swift */; };
 		CC8A37211FBDB679000AB735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8A371F1FBDB679000AB735 /* Main.storyboard */; };
 		CC8A37231FBDB679000AB735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8A37221FBDB679000AB735 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC21C1FA1FC9594400EA84D5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CC8A37181FBDB679000AB735 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8A371B1FBDB679000AB735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC8A37201FBDB679000AB735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,11 +64,12 @@
 			children = (
 				CC8A371B1FBDB679000AB735 /* AppDelegate.swift */,
 				CC8A371F1FBDB679000AB735 /* Main.storyboard */,
+				CCD045741FC018BB0043139E /* ConversionViewController.swift */,
 				CCE8E9361FC457D800EFA377 /* MapViewController.swift */,
+				CC21C1FA1FC9594400EA84D5 /* WebViewController.swift */,
 				CC8A37221FBDB679000AB735 /* Assets.xcassets */,
 				CC8A37241FBDB679000AB735 /* LaunchScreen.storyboard */,
 				CC8A37271FBDB679000AB735 /* Info.plist */,
-				CCD045741FC018BB0043139E /* ConversionViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				CCD045751FC018BB0043139E /* ConversionViewController.swift in Sources */,
 				CCE8E9371FC457D800EFA377 /* MapViewController.swift in Sources */,
 				CC8A371C1FBDB679000AB735 /* AppDelegate.swift in Sources */,
+				CC21C1FB1FC9594400EA84D5 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";

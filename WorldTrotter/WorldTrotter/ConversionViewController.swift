@@ -112,7 +112,7 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         print("ConversionViewController loaded its view")
     }
     
-    // Silver Challenge
+    // Silver Challenge: Dark Mode
     override func viewWillAppear(_ animated: Bool) {
         let date = Date()
         let hour = Calendar.current.component(.hour, from: date)
