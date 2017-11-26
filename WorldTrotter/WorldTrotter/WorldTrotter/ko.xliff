@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="WorldTrotter/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="ko">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body/>
+  </file>
+  <file original="WorldTrotter/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ko">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="1iY-YT-M90.title">
+        <source>MapViewController</source>
+        <target>MapViewController</target>
+        <note>Class = "UIViewController"; title = "MapViewController"; ObjectID = "1iY-YT-M90";</note>
+      </trans-unit>
+      <trans-unit id="BYZ-38-t0r.title">
+        <source>ConversionViewController</source>
+        <target>ConversionViewController</target>
+        <note>Class = "UIViewController"; title = "ConversionViewController"; ObjectID = "BYZ-38-t0r";</note>
+      </trans-unit>
+      <trans-unit id="MKx-GQ-BDz.title">
+        <source>Convert</source>
+        <target>Convert</target>
+        <note>Class = "UITabBarItem"; title = "Convert"; ObjectID = "MKx-GQ-BDz";</note>
+      </trans-unit>
+      <trans-unit id="S2E-UI-Igj.text">
+        <source>is really</source>
+        <target>is really</target>
+        <note>Class = "UILabel"; text = "is really"; ObjectID = "S2E-UI-Igj";</note>
+      </trans-unit>
+      <trans-unit id="Tnc-bq-Phz.text">
+        <source>100</source>
+        <target>100</target>
+        <note>Class = "UILabel"; text = "100"; ObjectID = "Tnc-bq-Phz";</note>
+      </trans-unit>
+      <trans-unit id="WeW-Da-JsZ.title">
+        <source>Map</source>
+        <target>Map</target>
+        <note>Class = "UITabBarItem"; title = "Map"; ObjectID = "WeW-Da-JsZ";</note>
+      </trans-unit>
+      <trans-unit id="eTh-1n-zuh.title">
+        <source>WebViewController</source>
+        <target>WebViewController</target>
+        <note>Class = "UIViewController"; title = "WebViewController"; ObjectID = "eTh-1n-zuh";</note>
+      </trans-unit>
+      <trans-unit id="jWY-St-K7h.title">
+        <source>Web</source>
+        <target>Web</target>
+        <note>Class = "UITabBarItem"; title = "Web"; ObjectID = "jWY-St-K7h";</note>
+      </trans-unit>
+      <trans-unit id="r8i-K6-tXe.placeholder">
+        <source>value</source>
+        <target>value</target>
+        <note>Class = "UITextField"; placeholder = "value"; ObjectID = "r8i-K6-tXe";</note>
+      </trans-unit>
+      <trans-unit id="tlc-Np-Pea.text">
+        <source>degrees Fahrenheit</source>
+        <target>degrees 화씨</target>
+        <note>Class = "UILabel"; text = "degrees Fahrenheit"; ObjectID = "tlc-Np-Pea";</note>
+      </trans-unit>
+      <trans-unit id="xfg-mW-nVC.text">
+        <source>degrees Celsius</source>
+        <target>degrees 섭씨</target>
+        <note>Class = "UILabel"; text = "degrees Celsius"; ObjectID = "xfg-mW-nVC";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WorldTrotter/Info.plist" source-language="en" datatype="plaintext" target-language="ko">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source/>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WorldTrotter/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="ko">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="Hybrid">
+        <source>Hybrid</source>
+        <target>하이브리드</target>
+        <note>Hybrid map view</note>
+      </trans-unit>
+      <trans-unit id="Satellite">
+        <source>Satellite</source>
+        <target>위성</target>
+        <note>SAtellite map view</note>
+      </trans-unit>
+      <trans-unit id="Standard">
+        <source>Standard</source>
+        <target>스탠다드</target>
+        <note>Standard map view</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

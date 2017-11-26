@@ -1,0 +1,33 @@
+
+/* Class = "UIViewController"; title = "MapViewController"; ObjectID = "1iY-YT-M90"; */
+"1iY-YT-M90.title" = "MapViewController";
+
+/* Class = "UIViewController"; title = "ConversionViewController"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "ConversionViewController";
+
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "MKx-GQ-BDz"; */
+"MKx-GQ-BDz.title" = "Convert";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "S2E-UI-Igj"; */
+"S2E-UI-Igj.text" = "is really";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "Tnc-bq-Phz"; */
+"Tnc-bq-Phz.text" = "100";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "WeW-Da-JsZ"; */
+"WeW-Da-JsZ.title" = "Map";
+
+/* Class = "UIViewController"; title = "WebViewController"; ObjectID = "eTh-1n-zuh"; */
+"eTh-1n-zuh.title" = "WebViewController";
+
+/* Class = "UITabBarItem"; title = "Web"; ObjectID = "jWY-St-K7h"; */
+"jWY-St-K7h.title" = "Web";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "r8i-K6-tXe"; */
+"r8i-K6-tXe.placeholder" = "value";
+
+/* Class = "UILabel"; text = "degrees Fahrenheit"; ObjectID = "tlc-Np-Pea"; */
+"tlc-Np-Pea.text" = "degrees 화씨";
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "xfg-mW-nVC"; */
+"xfg-mW-nVC.text" = "degrees 섭씨";

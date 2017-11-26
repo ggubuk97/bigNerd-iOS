@@ -58,8 +58,17 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
             celsiusLabel.text = "???"
         }
          */
+        
+        /*
         if let text = textField.text, let value = Double(text) {
             fahrenheitValue = value
+        }
+        else {
+            fahrenheitValue = nil
+        }
+        */
+        if let text = textField.text, let number = numberFormatter.number(from: text) {
+            fahrenheitValue = number.doubleValue
         }
         else {
             fahrenheitValue = nil
@@ -94,8 +103,13 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         }
         */
         
-        let existingTextHasDecimalSeparator = textField.text?.range(of: ".")
-        let replacementTextHasDecimalSeparator = string.range(of: ".")
+        //let existingTextHasDecimalSeparator = textField.text?.range(of: ".")
+        //let replacementTextHasDecimalSeparator = string.range(of: ".")
+        
+        // apply localization
+        let decimalSeparator = NSLocale.current.decimalSeparator
+        let existingTextHasDecimalSeparator = textField.text?.range(of: decimalSeparator!)
+        let replacementTextHasDecimalSeparator = string.range(of: decimalSeparator!)
         
         if existingTextHasDecimalSeparator != nil && replacementTextHasDecimalSeparator != nil {
             return false
