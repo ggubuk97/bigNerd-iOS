@@ -56,12 +56,12 @@
                             <constraint firstItem="9Yx-87-phP" firstAttribute="top" secondItem="ch1-2U-5Xj" secondAttribute="bottom" constant="33" id="07D-pR-grw"/>
                             <constraint firstItem="3GD-Nt-8W0" firstAttribute="centerX" secondItem="9Yx-87-phP" secondAttribute="centerX" id="4eN-9n-HJg"/>
                             <constraint firstItem="VSA-kY-WXU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9K7-Yv-0rM"/>
-                            <constraint firstItem="ch1-2U-5Xj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AcK-ic-yMH"/>
                             <constraint firstItem="VSA-kY-WXU" firstAttribute="top" secondItem="ch1-2U-5Xj" secondAttribute="top" id="HZS-aZ-wft"/>
                             <constraint firstItem="BGr-hO-QyL" firstAttribute="top" secondItem="3GD-Nt-8W0" secondAttribute="bottom" constant="25" id="XTx-Xp-MOn"/>
                             <constraint firstItem="BGr-hO-QyL" firstAttribute="centerX" secondItem="9Yx-87-phP" secondAttribute="centerX" id="clz-TH-5dF"/>
                             <constraint firstItem="ch1-2U-5Xj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="dmI-Rz-atz"/>
                             <constraint firstItem="3GD-Nt-8W0" firstAttribute="top" secondItem="9Yx-87-phP" secondAttribute="bottom" constant="119" id="ipe-Yn-kX9"/>
+                            <constraint firstItem="9Yx-87-phP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="n0e-AO-fbw"/>
                             <constraint firstItem="ch1-2U-5Xj" firstAttribute="centerX" secondItem="9Yx-87-phP" secondAttribute="centerX" id="nfy-TN-O2l"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,7 +69,9 @@
                     <connections>
                         <outlet property="answerLabel" destination="3GD-Nt-8W0" id="MEP-c4-wYc"/>
                         <outlet property="currentQuestionLabel" destination="ch1-2U-5Xj" id="56e-Dq-cQq"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="nfy-TN-O2l" id="geu-WX-bCN"/>
                         <outlet property="nextQuestionLabel" destination="VSA-kY-WXU" id="PeK-3M-n9g"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="9K7-Yv-0rM" id="Hju-pY-N79"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
